@@ -1,0 +1,14 @@
+resp_fs: 5
+burst_noise_thr: 20
+peak_method: chan
+fusion_method: quality
+sd_thresh: 0
+trim_mean_cutoff: 0
+percentile: 75
+height_prop: [0., 0.3]
+signals_to_use: ["bw","am","fm"]
+kernel_size: 60
+stride_length: 4
+use_wavelet: false
+ectopic_beat_thresh: 3
+ectopic_interval_thresh: 4

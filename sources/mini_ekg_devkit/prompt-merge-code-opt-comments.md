@@ -1,6 +1,6 @@
 above files are used for pre-processing EKG, prepared for respiration rate detection. Can you merge them into 1 file?
 
-This is the code for "longest_consecutive_ones", so you don't need "from rhythmanalytics.library.tools.noise import longest_consecutive_ones". please update above code. 
+This is the code for "longest_consecutive_ones", so you don't need "from xxx.library.tools.noise import longest_consecutive_ones". please update above code. 
 
 please also merge this peak finding function into above code. 
 
