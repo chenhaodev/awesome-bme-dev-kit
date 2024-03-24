@@ -9,3 +9,5 @@ This repository gathers advanced tools and resources for training, evaluation, a
 ### sig-acc-imu
 [sig-acc-imu](https://github.com/chenhaodev/sig-acc-imu) gathers advanced tools and resources for human motion and activity recognition.
 
+### mini-ekg-devkit
+[mini-ekg-devkit](./sources/mini-ekg-devkit/) features the most effective and industrially recognized approach to EKG arrhythmia detection 
