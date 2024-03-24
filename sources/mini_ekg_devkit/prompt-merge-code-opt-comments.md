@@ -14,3 +14,5 @@ comment style:
 ...
 
 keep generating please
+
+Thanks for merging, and I'd like to name it as 'resp_rate_util.py'. Now I have another 3 python files that may use resp_rate_util.py for resp rate detection. Try to merge 3 python files into 1, using functions in resp_rate_util.py if necessary.
