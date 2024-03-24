@@ -181,3 +181,32 @@ def sigma_slide(RRs, cutoff=0.14):
 
     out = less_std / std_arr.size
     return out
+
+###usage###
+'''
+
+import numpy as np
+
+# Create an instance of the AFibDetector
+detector = AFibDetector()
+
+# Load or generate the EKG signal
+ekg_signal = np.loadtxt('ekg_data.txt')  # Load EKG signal from a file or generate it
+
+# Define the sampling rate and gain
+sampling_rate = 360  # Sampling rate in Hz
+gain_adu = 200  # Gain in ADU per mV
+
+# Detect R-peaks in the EKG signal (assuming you have a separate R-peak detection function)
+r_peak_pos = detect_r_peaks(ekg_signal, sampling_rate)  # Function to detect R-peak positions
+
+# Detect AFib using the AFibDetector
+afib_detected = detector.detect_afib(ekg_signal, sampling_rate, r_peak_pos, gain_adu)
+
+# Print the result
+if afib_detected:
+    print("AFib detected in the EKG signal.")
+else:
+    print("No AFib detected in the EKG signal.")
+
+'''
