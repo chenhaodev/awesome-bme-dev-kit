@@ -6,6 +6,9 @@ This repository gathers advanced tools and resources for training, evaluation, a
 ### sig-neurokit
 [sig-neurokit](https://github.com/chenhaodev/sig-neurokit) offers a straightforward interface for advanced biosignal processing techniques, making it accessible to researchers and clinicians who may not have a deep background in programming or biomedical signal processing. e.g. ecg/hrv, ppg, eda etc
 
+### biosppy
+[biosppy](https://github.com/scientisst/BioSPPy) offers signal processing and pattern recognition for biosignal analysis, supporting BVP, ECG, EDA, EEG, EMG, PCG, PPG, and Respiration.
+
 ### sig-acc-imu
 [sig-acc-imu](https://github.com/chenhaodev/sig-acc-imu) gathers advanced tools and resources for human motion and activity recognition.
 
